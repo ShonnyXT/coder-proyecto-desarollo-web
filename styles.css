@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(90deg, #6495ed, #A1EEFF);
-    margin: 1rem;
+    margin: .5rem;
 }
 
 h1 {
@@ -14,6 +14,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 
+    border-radius: 1rem;
     
     background-image: url(multimedia/binary.jpg);
     background-repeat: no-repeat;
@@ -34,8 +35,13 @@ ul li {
     padding: 3px;
 
     border-style: solid;
-    border-color: red;
-    background-color: rgba(255, 0, 0, 0.486);
+    border-radius: 1rem;
+    border-color: blue;
+    background-color: deepskyblue;
+}
+
+ul li:hover {
+    background-color: #6aeeff;
 }
 
 h2 {
