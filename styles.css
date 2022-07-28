@@ -112,6 +112,7 @@ h4 {
 
 @media screen and (max-width:400px) {
     ul {font-size: 0.7rem;}
+    h2 {font-size: 2rem;}
 }
 
 
@@ -193,8 +194,17 @@ h4 {
     padding: 1rem;
     border: solid 3px brown;
 }
-@media screen and (max-width:720px) {
+.budget-seccion div {
+    padding: .5rem;
+}
+@media screen and (max-width:612px) {
     .budget-seccion {display: flex;flex-direction: column;padding: 1rem 1rem;}
+    .budget-article form div textarea {width: 100%;}
+}
+@media screen and (max-width:360px) {
+    .budget-seccion {padding: 20px 1px;}
+    .budget-seccion div {padding: 20px 1px;}
+    .budget-seccion table {border:solid 1px;border-collapse: collapse;}
 }
 
 
