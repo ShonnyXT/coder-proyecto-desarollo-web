@@ -298,28 +298,26 @@ a {
 
 .me-article {
     font-style: oblique;
-    margin: 5px 10px;
-    display: grid;
+    padding: 2rem;
+
+    
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     "principal informativo-1"
     "principal informativo-2";
+
+
 }
 .me-article .me-principal {
     grid-area: principal;
-    margin: 5rem;
+    margin: 2rem;
 }
 .me-article .me-informativo-1 {
     grid-area: informativo-1;
-    margin: 5rem;
+    margin: 2rem;
 }
 .me-article .me-informativo-2 {
     grid-area: informativo-2;
-    margin: 5rem;
-}
-@media screen and (max-width:720px) {
-    .me-article .me-principal {margin: 1rem;}
-    .me-article .me-informativo-1 {margin: 1rem;}
-    .me-article .me-informativo-2 {margin: 1rem;}
+    margin: 2rem;
 }
