@@ -255,8 +255,8 @@ a {
     align-self: center;
 }
 .contacto-grid-1 .contacto-cv img {
-    height: 60rem;
-    width: 40rem;
+    height: 51rem;
+    width: 32rem;
     background-size: 100%;
 }
 .contacto-grid-1 .contacto-informacion-1 {
@@ -291,15 +291,16 @@ a {
     margin: 1rem;
 }
 .contacto-redes {
-    margin: 10rem 5rem;
+    margin: 5rem 5rem;
 }
 @media screen and (max-width:1080px) {
     .contacto-grid-1 .contacto-cv img {height: 39rem;width: 26rem;background-size: 100%;}
+    .contacto-redes {margin: 1rem;}
 }
 @media screen and (max-width:767px) {
-    .contacto-grid-1 {display: flex;flex-direction: column;}
+    .contacto-grid-1 {display: flex;flex-direction: column;margin: 1rem;}
     .contacto-redes {margin: 1rem;}
-    .contacto-grid-1 .contacto-cv img {height: 27rem;width: 18rem;background-size: 100%;}
+    .contacto-grid-1 .contacto-cv img {height: 27rem;width: 18rem;background-size: 100%;margin-bottom: 2rem;}
 }
 
 
