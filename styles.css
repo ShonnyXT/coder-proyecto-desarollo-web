@@ -294,7 +294,7 @@ a {
     margin: 5rem 5rem;
 }
 @media screen and (max-width:1080px) {
-    .contacto-grid-1 .contacto-cv img {height: 39rem;width: 26rem;background-size: 100%;}
+    .contacto-grid-1 .contacto-cv img {height: 33rem;width: 22em;background-size: 100%;}
     .contacto-redes {margin: 1rem;}
 }
 @media screen and (max-width:767px) {
