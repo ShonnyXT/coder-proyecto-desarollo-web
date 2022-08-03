@@ -247,6 +247,9 @@ a {
 .budget-seccion div {
     padding: .5rem;
 }
+.budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
+    border: solid 1px blanchedalmond;
+}
 @media screen and (max-width:612px) {
     .budget-seccion {display: flex;flex-direction: column;padding: 1rem 1rem;}
     .budget-article form div textarea {width: 100%;}
