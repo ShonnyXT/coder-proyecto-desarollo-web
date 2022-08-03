@@ -86,6 +86,13 @@ h2 {
 
     display: flex;
     justify-content: center;
+
+    animation-name: titulacion;
+    animation-duration: 1s;
+}
+@keyframes titulacion {
+    0% {transform: translate(35rem); opacity: 0;}
+    100% {transform: translate(0px); opacity: 100;}
 }
 
 h3 {
