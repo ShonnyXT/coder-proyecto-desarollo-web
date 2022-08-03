@@ -88,10 +88,10 @@ h2 {
     justify-content: center;
 
     animation-name: titulacion;
-    animation-duration: 1s;
+    animation-duration: .25s;
 }
 @keyframes titulacion {
-    0% {transform: translate(35rem); opacity: 0;}
+    0% {transform: translate(25rem); opacity: 0;}
     100% {transform: translate(0px); opacity: 100;}
 }
 
