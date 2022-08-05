@@ -8,22 +8,12 @@ h1 {
 }
 
 nav {
-    height: 7rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
     border-radius: 1rem;
     
     background-image: url(multimedia/binary.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-    position: sticky;
-    top: 0;
 }
-
 ul {
     list-style-type: none;
     font-family: 'Times New Roman', Times, serif;
