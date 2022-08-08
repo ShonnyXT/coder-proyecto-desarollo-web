@@ -1,0 +1,27 @@
+nav {
+    border-radius: 1rem;
+    
+    background-image: url(../multimedia/binary.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    ul {
+        list-style-type: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        margin: 1px;
+
+        li {
+            display: inline-block;
+            padding: 3px;
+        
+            border-style: solid;
+            border-radius: 1rem;
+            border-color: blue;
+            background-color: deepskyblue;
+        }
+        li:hover {
+            background-color: #6aeeff;
+        }
+    }
+}
