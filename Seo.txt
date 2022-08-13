@@ -1,0 +1,9 @@
+Cambios generales
+    --uso de extend para igualar "p" y "span" en el body
+
+
+- sobre-mi.html
+    --Agregado mapa-- para los colores de fondo de cada contenido
+
+- contact.html
+    --Agregado maxin para imgagen en > .contacto-grid-1 > .contacto-cv > img --

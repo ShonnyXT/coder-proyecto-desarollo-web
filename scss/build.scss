@@ -11,8 +11,7 @@ span {
     font-family: 'Times New Roman', Times, serif;
 }
 p {
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
+    @extend span
 }
 a {
     color: blue;
@@ -37,7 +36,7 @@ h2 {
     animation-duration: .25s;
 }
 @keyframes titulacion {
-    0% {transform: translate(25rem); opacity: 0;}
+    0% {transform: translate(10rem); opacity: 0;}
     100% {transform: translate(0px); opacity: 100;}
 }
 h3 {
@@ -232,9 +231,7 @@ h4 {
         align-self: center;
 
         img {
-            height: 51rem;
-            width: 32rem;
-            background-size: 100%;
+            @include img (47rem, 30rem,100%)
         }
     }
     .contacto-informacion-1 {
@@ -316,5 +313,11 @@ h4 {
     .me-informativo-2 {
         grid-area: informativo-2;
         margin: .5rem;
+    }
+}
+//mapa//
+@each $var, $color in $color-me {
+    .me-#{$var} {
+        background-color: $color;
     }
 }

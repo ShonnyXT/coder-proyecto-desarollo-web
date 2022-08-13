@@ -36,11 +36,7 @@ body {
   background: linear-gradient(50deg, #070079 0%, rgba(8, 86, 135, 0.622286) 60%, #00d4ff 100%);
   margin: .5rem; }
 
-span {
-  font-size: 2rem;
-  font-family: 'Times New Roman', Times, serif; }
-
-p {
+span, p {
   font-size: 2rem;
   font-family: 'Times New Roman', Times, serif; }
 
@@ -66,7 +62,7 @@ h2 {
 
 @keyframes titulacion {
   0% {
-    transform: translate(25rem);
+    transform: translate(10rem);
     opacity: 0; }
   100% {
     transform: translate(0px);
@@ -85,7 +81,7 @@ h4 {
     font-size: 1.5rem; }
   h2 {
     font-size: 4.5rem; }
-  span {
+  span, p {
     font-size: 1.5rem; }
   p {
     font-size: 1.5rem; }
@@ -102,7 +98,7 @@ h4 {
     font-size: 1rem; }
   h2 {
     font-size: 3rem; }
-  span {
+  span, p {
     font-size: 1rem; }
   p {
     font-size: 1rem; }
@@ -282,8 +278,8 @@ h4 {
     justify-self: right;
     align-self: center; }
     .contacto-grid-1 .contacto-cv img {
-      height: 51rem;
-      width: 32rem;
+      height: 47rem;
+      width: 30rem;
       background-size: 100%; }
   .contacto-grid-1 .contacto-informacion-1 {
     grid-area: informacion-1;
@@ -306,7 +302,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .contacto-seccion div span {
+    .contacto-seccion div span, .contacto-seccion div p {
       font-style: unset; }
     .contacto-seccion div p {
       margin: 1rem;
@@ -356,3 +352,12 @@ h4 {
   .me-article .me-informativo-2 {
     grid-area: informativo-2;
     margin: .5rem; }
+
+.me-principal {
+  background-color: rgba(255, 0, 0, 0.267); }
+
+.me-informativo-1 {
+  background-color: rgba(255, 238, 0, 0.342); }
+
+.me-informativo-2 {
+  background-color: rgba(183, 0, 255, 0.253); }
