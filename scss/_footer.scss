@@ -15,3 +15,6 @@ footer {
         background-color: #6aeeff;
     }
 }
+@media screen and (max-width:1080px) {
+    footer {font-size: 2rem;padding: 2rem;}
+}

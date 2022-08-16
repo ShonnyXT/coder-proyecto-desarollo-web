@@ -1,11 +1,20 @@
-$color-primary: linear-gradient(50deg, rgba(7,0,121,1) 0%, rgba(8,86,135,0.6222864145658263) 60%, rgba(0,212,255,1) 100%);
-//mappa//
+//tamaños de titulos//
+$title-major: 6rem;
+$title-primary: 3rem;
+$title-secondary: 3rem;
+
+//Colores//
+$color-fondo: linear-gradient(50deg, rgba(7,0,121,1) 0%, rgba(8,86,135,0.6222864145658263) 60%, rgba(0,212,255,1) 100%);
+$color-major: midnightblue;
+
+//mapa-color//
 $color-me: (
     principal: rgba(255, 0, 0, 0.267),
     informativo-1: rgba(255, 238, 0, 0.342),
     informativo-2: hsla(283, 100%, 50%, 0.253),
 );
 
+//imagenes//
 @mixin img ($alto, $ancho, $size) {
     height: $alto;
     width: $ancho;

@@ -2,8 +2,9 @@
 @import "_nav";
 @import "_footer";
 
+//cambios-generales//
 body {
-    background: $color-primary;
+    background: $color-fondo;
     margin: .5rem;
 }
 span {
@@ -25,8 +26,8 @@ h2 {
     font-family: initial;
     font-weight: bolder;
     font-style: italic;
-    font-size: 6rem;
-    color: midnightblue;
+    font-size: $title-major;
+    color: $color-major;
     padding: 1rem;
 
     display: flex;
@@ -40,11 +41,11 @@ h2 {
     100% {transform: translate(0px); opacity: 100;}
 }
 h3 {
-    font-size: 3rem;
+    font-size: $title-primary;
     font-family: 'Times New Roman', Times, serif;
 }
 h4 {
-    font-size: 4rem;
+    font-size: $title-secondary;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -55,7 +56,6 @@ h4 {
     p {font-size: 1.5rem;}
     h3 {font-size: 2.5rem;}
     h4 {font-size: 2.5rem;}
-    footer {font-size: 2rem;padding: 2rem;}
 }
 
 @media screen and (max-width:720px) {
@@ -75,16 +75,19 @@ h4 {
 
 
 
-
+//page-home//
 .home-p {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 
+    div {
+        p {font-style: oblique;}
+    }
+
     img {
-        width: 35rem;
-        height: 16rem;
+        @include img (35rem, 16rem)
     }
 }
 .home-t {
@@ -112,8 +115,7 @@ h4 {
         padding: .5rem; 
     }
     img {
-        width: 35rem;
-        height: 30rem;
+        @include img (35rem, 30rem)
     }
 }
 @media screen and (max-width:1080px) {
@@ -134,7 +136,7 @@ h4 {
 }   
 
 
-
+//page-portafolio//
 .portafolio-article {
     padding: 5rem;
 }
@@ -171,7 +173,7 @@ h4 {
 }
 
 
-
+//page-presupuesto//
 .budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
     border: solid 1px blanchedalmond;
 }
@@ -214,7 +216,7 @@ h4 {
 }
 
 
-
+//page-contacto//
 .contacto-grid-1 {
     margin: 2rem;
     display: grid;
@@ -290,7 +292,7 @@ h4 {
 }
 
 
-
+//page-sobre-mi//
 .me-article {
     font-style: oblique;
     padding: 5vw;
