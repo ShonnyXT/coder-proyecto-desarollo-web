@@ -8,10 +8,17 @@ $color-fondo: linear-gradient(50deg, rgba(7,0,121,1) 0%, rgba(8,86,135,0.6222864
 $color-major: midnightblue;
 
 //mapa-color//
+//sobre-mi//
 $color-me: (
     principal: rgba(255, 0, 0, 0.267),
     informativo-1: rgba(255, 238, 0, 0.342),
     informativo-2: hsla(283, 100%, 50%, 0.253),
+);
+//contacto//
+$color-contacto: (
+    1: rgba(255, 0, 0, 0.123),
+    2: rgba(255, 238, 0, 0.123),
+    3: hsla(283, 100%, 50%, 0.123),
 );
 
 //imagenes//

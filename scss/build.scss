@@ -43,6 +43,7 @@ h2 {
 h3 {
     font-size: $title-primary;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
 }
 h4 {
     font-size: $title-secondary;
@@ -50,7 +51,6 @@ h4 {
 }
 
 @media screen and (max-width:1080px) {
-    ul {font-size: 1.5rem;}
     h2 {font-size: 4.5rem;}
     span {font-size: 1.5rem;}
     p {font-size: 1.5rem;}
@@ -59,18 +59,15 @@ h4 {
 }
 
 @media screen and (max-width:720px) {
-    ul {font-size: 1rem;}
     h2 {font-size: 3rem;}
     span {font-size: 1rem;}
     p {font-size: 1rem;}
-    h3 {font-size: 2rem;}
-    h4 {font-size: 2rem;}
-    footer {font-size: 1rem;padding: 1rem;}
+    h3 {font-size: 1.5rem;}
+    h4 {font-size: 1.5rem;}
 }
 
 @media screen and (max-width:400px) {
-    ul {font-size: 0.7rem;}
-    h2 {font-size: 2rem;}
+    h2 {font-size: 1.75rem;}
 }
 
 
@@ -83,11 +80,11 @@ h4 {
     justify-content: space-around;
 
     div {
-        p {font-style: oblique;}
+        p {font-style: oblique;font-weight: bold; }
     }
 
     img {
-        @include img (35rem, 16rem)
+        @include img (16rem, 35rem, 100%)
     }
 }
 .home-t {
@@ -115,7 +112,7 @@ h4 {
         padding: .5rem; 
     }
     img {
-        @include img (35rem, 30rem)
+        @include img (30rem, 35rem, 100%)
     }
 }
 @media screen and (max-width:1080px) {
@@ -176,6 +173,7 @@ h4 {
 //page-presupuesto//
 .budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
     border: solid 1px blanchedalmond;
+    background-color: rgba(245, 245, 245, 0.123);
 }
 .budget-seccion {
     display: flex;
@@ -281,6 +279,12 @@ h4 {
         flex-direction: row;
     }
 }
+//mapa-contacto//
+@each $var, $color in $color-contacto {
+    .fondo-#{$var} {
+        background: $color;
+    }
+}
 @media screen and (max-width:1080px) {
     .contacto-grid-1 .contacto-cv img {height: 33rem;width: 22em;background-size: 100%;}
     .contacto-redes {margin: 1rem;}
@@ -317,7 +321,7 @@ h4 {
         margin: .5rem;
     }
 }
-//mapa//
+//mapa-me//
 @each $var, $color in $color-me {
     .me-#{$var} {
         background-color: $color;

@@ -18,6 +18,10 @@ nav {
     nav ul li:hover {
       background-color: #6aeeff; }
 
+@media screen and (max-width: 768px) {
+  ul {
+    font-size: 1.25rem !important; } }
+
 footer {
   display: flex;
   justify-content: center;
@@ -36,6 +40,11 @@ footer {
   footer {
     font-size: 2rem;
     padding: 2rem; } }
+
+@media screen and (max-width: 720px) {
+  footer {
+    font-size: 1rem;
+    padding: 1rem; } }
 
 body {
   background: linear-gradient(50deg, #070079 0%, rgba(8, 86, 135, 0.622286) 60%, #00d4ff 100%);
@@ -75,15 +84,14 @@ h2 {
 
 h3 {
   font-size: 3rem;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-line: underline; }
 
 h4 {
   font-size: 3rem;
   font-family: 'Times New Roman', Times, serif; }
 
 @media screen and (max-width: 1080px) {
-  ul {
-    font-size: 1.5rem; }
   h2 {
     font-size: 4.5rem; }
   span, p {
@@ -96,8 +104,6 @@ h4 {
     font-size: 2.5rem; } }
 
 @media screen and (max-width: 720px) {
-  ul {
-    font-size: 1rem; }
   h2 {
     font-size: 3rem; }
   span, p {
@@ -105,27 +111,26 @@ h4 {
   p {
     font-size: 1rem; }
   h3 {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   h4 {
-    font-size: 2rem; }
-  footer {
-    font-size: 1rem;
-    padding: 1rem; } }
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 400px) {
-  ul {
-    font-size: 0.7rem; }
   h2 {
-    font-size: 2rem; } }
+    font-size: 1.75rem; } }
 
 .home-p {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around; }
+  .home-p div p {
+    font-style: oblique;
+    font-weight: bold; }
   .home-p img {
+    height: 16rem;
     width: 35rem;
-    height: 16rem; }
+    background-size: 100%; }
 
 .home-t {
   display: flex;
@@ -148,8 +153,9 @@ h4 {
   .home-i div {
     padding: .5rem; }
   .home-i img {
+    height: 30rem;
     width: 35rem;
-    height: 30rem; }
+    background-size: 100%; }
 
 @media screen and (max-width: 1080px) {
   .home-p {
@@ -230,7 +236,8 @@ h4 {
     background-size: 100%; } }
 
 .budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
-  border: solid 1px blanchedalmond; }
+  border: solid 1px blanchedalmond;
+  background-color: rgba(245, 245, 245, 0.123); }
 
 .budget-seccion {
   display: flex;
@@ -317,6 +324,15 @@ h4 {
   .contacto-seccion .contacto-link {
     display: flex;
     flex-direction: row; }
+
+.fondo-1 {
+  background: rgba(255, 0, 0, 0.123); }
+
+.fondo-2 {
+  background: rgba(255, 238, 0, 0.123); }
+
+.fondo-3 {
+  background: rgba(183, 0, 255, 0.123); }
 
 @media screen and (max-width: 1080px) {
   .contacto-grid-1 .contacto-cv img {
