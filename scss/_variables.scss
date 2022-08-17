@@ -7,6 +7,9 @@ $title-secondary: 3rem;
 $color-fondo: linear-gradient(50deg, rgba(7,0,121,1) 0%, rgba(8,86,135,0.6222864145658263) 60%, rgba(0,212,255,1) 100%);
 $color-major: midnightblue;
 
+//espaciado//
+$spacing-top: 1rem;
+
 //mapa-color//
 //sobre-mi//
 $color-me: (
@@ -27,3 +30,5 @@ $color-contacto: (
     width: $ancho;
     background-size: $size;
 }
+
+$carousel-control-width: 30% !important;

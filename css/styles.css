@@ -20,7 +20,7 @@ nav {
 
 @media screen and (max-width: 768px) {
   ul {
-    font-size: 1.25rem !important; } }
+    font-size: 1.15rem !important; } }
 
 footer {
   display: flex;
@@ -237,7 +237,12 @@ h4 {
 
 .budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
   border: solid 1px blanchedalmond;
-  background-color: rgba(245, 245, 245, 0.123); }
+  background-color: rgba(245, 245, 245, 0.123);
+  align-items: stretch;
+  justify-items: stretch; }
+
+.budget-article .budget-seccion:nth-child(2) {
+  margin-top: 1rem; }
 
 .budget-seccion {
   display: flex;
@@ -370,6 +375,12 @@ h4 {
   .me-article .me-informativo-2 {
     grid-area: informativo-2;
     margin: .5rem; }
+  .me-article h3 {
+    margin-top: 2rem; }
+  .me-article section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
 
 .me-principal {
   background-color: rgba(255, 0, 0, 0.267); }

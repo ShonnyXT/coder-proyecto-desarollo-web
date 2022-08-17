@@ -1,9 +1,22 @@
 Cambios generales
     --uso de extend para igualar "p" y "span" en el body--
     --añadido "keywords" con "description" Y favicon a todas las paginas--
+    --Agregado mas variables--
 
-- sobre-mi.html
-    --Agregado mapa-- para los colores de fondo de cada contenido--
+- budget.html
+    --Añadido separacion de secciones--
 
 - contact.html
     --Agregado maxin para imgagen en > .contacto-grid-1 > .contacto-cv > img--
+    --Agregado mapa para los colores de fondo--
+
+- sobre-mi.html
+    --Agregado mapa para los colores de fondo de cada contenido--
+    --Agregado carrusel con intervalos e imagenes--
+    --Agregado links a carrusel
+
+
+
+
+
+

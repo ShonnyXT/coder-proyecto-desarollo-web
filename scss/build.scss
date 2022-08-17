@@ -171,10 +171,17 @@ h4 {
 
 
 //page-presupuesto//
-.budget-article .budget-seccion:nth-child(1), .budget-article .budget-seccion:nth-child(2) {
+.budget-article .budget-seccion:nth-child(1) {
     border: solid 1px blanchedalmond;
     background-color: rgba(245, 245, 245, 0.123);
+    align-items: stretch;
+    justify-items: stretch;
 }
+.budget-article .budget-seccion:nth-child(2) {
+    margin-top: $spacing-top;
+    @extend .budget-seccion:nth-child(1)
+}
+
 .budget-seccion {
     display: flex;
     flex-direction: row;
@@ -319,6 +326,16 @@ h4 {
     .me-informativo-2 {
         grid-area: informativo-2;
         margin: .5rem;
+    }
+    h3 {
+        margin-top: $spacing-top*2;
+    }
+    section {
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 }
 //mapa-me//
