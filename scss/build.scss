@@ -82,7 +82,6 @@ h4 {
     div {
         p {font-style: oblique;font-weight: bold; }
     }
-
     img {
         @include img (16rem, 35rem, 100%)
     }
@@ -137,6 +136,13 @@ h4 {
 .portafolio-article {
     padding: 5rem;
 }
+.portafolio-carousel {
+    margin: 1rem auto;
+    width: $spacing-fullw;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
 .portafolio-seccion {
     display: flex;
     flex-direction: row;
@@ -181,7 +187,6 @@ h4 {
     margin-top: $spacing-top;
     @extend .budget-seccion:nth-child(1)
 }
-
 .budget-seccion {
     display: flex;
     flex-direction: row;
@@ -335,6 +340,15 @@ h4 {
             display: flex;
             flex-direction: row;
             justify-content: center;
+        }
+        a {
+            animation-name: blog;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes blog {
+            0% {color: blue;}
+            100% {color: red;}
         }
     }
 }

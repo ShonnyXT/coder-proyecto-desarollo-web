@@ -57,9 +57,9 @@
         <h2>Portafolio Personal</h2>
     </header>
         
-    <article class="portafolio-article" class="conteiner">
+    <article class="portafolio-article conteiner">
         <!--carrusel-con-intervalo-->
-        <section>
+        <section class="portafolio-carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -82,15 +82,14 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-
+            </div>  
         </section>
 
         <!--portafolios-->
@@ -119,7 +118,7 @@
             <img src="../multimedia/briefcase-streaming.jpg" alt="streaming" class="portafolio-imagen">
         </section>
 
-        <section class="portafolio-seccion" class="row" >
+        <section class="portafolio-seccion" class="row">
             <div class="col">
                 <h4>Algo</h4>
                 <span>Ya se me ocurria algo mas para colocar en esta seccion.... Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -132,8 +131,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <!--footer-->
-    <footer>
-        <a href="#inicio">Volver al Inicio</a>
+    <footer class="col">
+        <div>
+            <a class="text-dark" href="#inicio">Volver al Inicio </a>
+        </div>
+        <span>@Todos los derechos reservados por mi propia auditoria.</span>
     </footer>
 </body>
 </html>

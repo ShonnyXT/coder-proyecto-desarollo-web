@@ -3,8 +3,13 @@ Cambios generales
     --añadido "keywords" con "description" Y favicon a todas las paginas--
     --Agregado mas variables--
 
+- briefcase.html
+    --Añadido carrusel--
+    --Corregido tamaño de carrusel--
+
 - budget.html
     --Añadido separacion de secciones--
+    --Añadido texto extra--
 
 - contact.html
     --Agregado maxin para imgagen en > .contacto-grid-1 > .contacto-cv > img--
@@ -13,7 +18,8 @@ Cambios generales
 - sobre-mi.html
     --Agregado mapa para los colores de fondo de cada contenido--
     --Agregado carrusel con intervalos e imagenes--
-    --Agregado links a carrusel
+    --Agregado links a carrusel--
+    --Añadido keyframe a blog--
 
 
 
